@@ -1,0 +1,33 @@
+{
+  "name": "weather-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-node": "babel-node --presets=env --ignore='node_modules'",
+    "dev": "nodemon --exec yarn babel-node -- server.js",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/car1sberg/weather-via-NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/car1sberg/weather-via-NodeJS/issues"
+  },
+  "homepage": "https://github.com/car1sberg/weather-via-NodeJS#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "request": "^2.85.0",
+    "yargs": "^11.0.0"
+  }
+}
